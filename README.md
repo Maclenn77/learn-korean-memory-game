@@ -1,26 +1,43 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Learn Korean - Memory game
 
-> Description the project.
+> A memory game to learn and practice Korean words.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+### Front-end
+- React
+- Redux
+- HTML/CSS
+- Bootstrap
+- JavaScript
+
+### Back-end
+- Ruby
+- Ruby on Rails
+- Postgresql 
+
+### Testing
+- Jest
+- Capybara
+- Rspec
+
+### Development tools
+- VS Code
+- Docker
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Comming soon](https://livedemo.com)
 
 
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
 **Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+cd 
 
 To get a local copy up and running follow these simple example steps.
 
@@ -40,23 +57,17 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **J. P. Pérez Tejada**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@maclenn77](https://github.com/maclenn77)
+- Twitter: [@SrJuanPapas](https://twitter.com/SrJuanPapas)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/juanpaulopereztejada/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Maclenn77/learn-korean-memory-game/issues).
 
 ## Show your support
 
