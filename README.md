@@ -43,9 +43,28 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- Git
+- A browser
+
 ### Setup
 
+- Clone the repository
+
+`$ git clone git@github.com:Maclenn77/learn-korean-memory-game.git`
+
+- Go to the root folder
+
+`cd learn-korean-memory-game`
+
+
 ### Install
+
+- Reproduce the environment with docker compose
+
+`docker-compose up --build`
+
+- Open the webapp in [localhost:3000](http://localhost:3000)
 
 ### Usage
 
