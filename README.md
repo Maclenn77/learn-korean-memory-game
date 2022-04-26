@@ -60,10 +60,15 @@ To get a local copy up and running follow these simple example steps.
 
 
 ### Install
+- Build a docker image
 
-- Reproduce the environment with docker compose
+docker build -t learn-korean-memory-game .
 
-`docker-compose up --build`
+- Reproduce the environment with docker compose or docker
+
+`docker-compose up`
+
+`docker run -d -p 3000:3000 learn-korean-memory-game`
 
 - Open the webapp in [localhost:3000](http://localhost:3000)
 

@@ -10,4 +10,4 @@ ADD . /app
 WORKDIR /app
 RUN bundle install
 EXPOSE 3000
-CMD ["bash"]
+CMD ["rails", "server", "--binding", "0.0.0.0"]
