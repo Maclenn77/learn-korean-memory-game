@@ -43,6 +43,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+- [Docker](https://docs.docker.com/get-docker/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
 - Git
 - A browser
