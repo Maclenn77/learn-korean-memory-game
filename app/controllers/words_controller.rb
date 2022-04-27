@@ -3,7 +3,8 @@ class WordsController < ApplicationController
 
   # GET /words or /words.json
   def index
-    @words = Word.find([1, params[:size]])
+    size = params[:size].to_i
+    @words = params[:size] ? Word.order('RANDOM()').first(size) : Word.order('RANDOM()').first(6)
   end
 
   # GET /words/1 or /words/1.json
