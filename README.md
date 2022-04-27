@@ -77,6 +77,18 @@ docker build -t learn-korean-memory-game .
 
 ### Usage
 
+- Populate database with: 
+```
+ rails db:setup
+```
+
+or
+
+```
+ rails db:create
+ rails db:migrate
+ rails db:seed
+```
 ### Run tests
 
 ### Deployment
