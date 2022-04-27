@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  hangul: MyString
+  romaja: MyString
+  imageurl: MyString
+  audiofile: MyString
+  topiklevel: 1
+
+two:
+  hangul: MyString
+  romaja: MyString
+  imageurl: MyString
+  audiofile: MyString
+  topiklevel: 1

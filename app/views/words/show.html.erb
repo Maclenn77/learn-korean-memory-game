@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Hangul:</strong>
+  <%= @word.hangul %>
+</p>
+
+<p>
+  <strong>Romaja:</strong>
+  <%= @word.romaja %>
+</p>
+
+<p>
+  <strong>Imageurl:</strong>
+  <%= @word.imageurl %>
+</p>
+
+<p>
+  <strong>Audiofile:</strong>
+  <%= @word.audiofile %>
+</p>
+
+<p>
+  <strong>Topiklevel:</strong>
+  <%= @word.topiklevel %>
+</p>
+
+<%= link_to 'Edit', edit_word_path(@word) %> |
+<%= link_to 'Back', words_path %>
