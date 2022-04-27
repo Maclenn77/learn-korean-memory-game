@@ -4,6 +4,9 @@
 
 > A memory game to learn and practice Korean words.
 
+## Models
+
+- [_Word_ model](/Model%20Documentation/Word)
 
 ## Built With
 
