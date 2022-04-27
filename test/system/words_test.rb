@@ -1,51 +1,51 @@
-require "application_system_test_case"
+require 'application_system_test_case'
 
 class WordsTest < ApplicationSystemTestCase
   setup do
     @word = words(:one)
   end
 
-  test "visiting the index" do
+  test 'visiting the index' do
     visit words_url
-    assert_selector "h1", text: "Words"
+    assert_selector 'h1', text: 'Words'
   end
 
-  test "creating a Word" do
+  test 'creating a Word' do
     visit words_url
-    click_on "New Word"
+    click_on 'New Word'
 
-    fill_in "Audiofile", with: @word.audiofile
-    fill_in "Hangul", with: @word.hangul
-    fill_in "Imageurl", with: @word.imageurl
-    fill_in "Romaja", with: @word.romaja
-    fill_in "Topiklevel", with: @word.topiklevel
-    click_on "Create Word"
+    fill_in 'Audiofile', with: @word.audiofile
+    fill_in 'Hangul', with: @word.hangul
+    fill_in 'Imageurl', with: @word.imageurl
+    fill_in 'Romaja', with: @word.romaja
+    fill_in 'Topiklevel', with: @word.topiklevel
+    click_on 'Create Word'
 
-    assert_text "Word was successfully created"
-    click_on "Back"
+    assert_text 'Word was successfully created'
+    click_on 'Back'
   end
 
-  test "updating a Word" do
+  test 'updating a Word' do
     visit words_url
-    click_on "Edit", match: :first
+    click_on 'Edit', match: :first
 
-    fill_in "Audiofile", with: @word.audiofile
-    fill_in "Hangul", with: @word.hangul
-    fill_in "Imageurl", with: @word.imageurl
-    fill_in "Romaja", with: @word.romaja
-    fill_in "Topiklevel", with: @word.topiklevel
-    click_on "Update Word"
+    fill_in 'Audiofile', with: @word.audiofile
+    fill_in 'Hangul', with: @word.hangul
+    fill_in 'Imageurl', with: @word.imageurl
+    fill_in 'Romaja', with: @word.romaja
+    fill_in 'Topiklevel', with: @word.topiklevel
+    click_on 'Update Word'
 
-    assert_text "Word was successfully updated"
-    click_on "Back"
+    assert_text 'Word was successfully updated'
+    click_on 'Back'
   end
 
-  test "destroying a Word" do
+  test 'destroying a Word' do
     visit words_url
     page.accept_confirm do
-      click_on "Destroy", match: :first
+      click_on 'Destroy', match: :first
     end
 
-    assert_text "Word was successfully destroyed"
+    assert_text 'Word was successfully destroyed'
   end
 end
