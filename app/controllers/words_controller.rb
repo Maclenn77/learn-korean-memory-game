@@ -3,7 +3,7 @@ class WordsController < ApplicationController
 
   # GET /words or /words.json
   def index
-    @words = Word.all
+    @words = Word.find([1, params[:size]])
   end
 
   # GET /words/1 or /words/1.json
@@ -58,11 +58,16 @@ class WordsController < ApplicationController
   private
 
   # Use callbacks to share common setup or constraints between actions.
+  def random_set_of_words #Not random yet 
+    Word.find([1, params[:size]])
+  end
+  
   def set_word
     @word = Word.find(params[:id])
   end
 
   # Only allow a list of trusted parameters through.
+
   def word_params
     params.require(:word).permit(:hangul, :romaja, :imageurl, :audiofile, :topiklevel)
   end
