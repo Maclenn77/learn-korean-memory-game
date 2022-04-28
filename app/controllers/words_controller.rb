@@ -3,8 +3,7 @@ class WordsController < ApplicationController
 
   # GET /words or /words.json
   def index
-    size = params[:size].to_i
-    @words = params[:size] ? Word.order('RANDOM()').first(size) : Word.order('RANDOM()').first(6)
+    random_set_of_words
   end
 
   # GET /words/1 or /words/1.json
@@ -60,7 +59,8 @@ class WordsController < ApplicationController
 
   # Use callbacks to share common setup or constraints between actions.
   def random_set_of_words #Not random yet 
-    Word.find([1, params[:size]])
+    size = params[:size].to_i
+    @words = params[:size] ? Word.order('RANDOM()').first(size) : Word.order('RANDOM()').first(6)
   end
   
   def set_word
