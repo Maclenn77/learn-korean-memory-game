@@ -6,7 +6,7 @@
 
 ## Models
 
-- [_Word_ model](/Model%20Documentation/Word)
+- [_Word_ model](/Model%20Documentation/Word.md)
 
 ## Built With
 
