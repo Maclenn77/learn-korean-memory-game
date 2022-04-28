@@ -10,6 +10,14 @@ class WordsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
+  test 'default index responses get a set of six words' do
+    assert_response :success
+  end
+
+  test 'retrieves a random set of words' do
+    assert_response :success
+  end
+
   test 'should get new' do
     get new_word_url
     assert_response :success
