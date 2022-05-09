@@ -14,7 +14,6 @@ Word.create([{ hangul: '아이', romaja: 'ai', topiklevel: 1, imageurl: 'https:/
   { hangul: '몸', romaja: 'mom', topiklevel: 1, imageurl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/201803_Human_Male.png/640px-201803_Human_Male.png'},
   { hangul: '눈', romaja: 'nun', topiklevel: 1, imageurl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Eye_iris.jpg/640px-Eye_iris.jpg'},
   { hangul: '손', romaja: 'son', topiklevel: 1, imageurl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hand_of_a_Teenage_Boy.png/800px-Hand_of_a_Teenage_Boy.png'},
-  # Need to change images
   { hangul: '가을', romaja: 'gaeul', topiklevel: 1, imageurl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Autumn_at_Roseland_Park%2C_Woodstock_Connecticut.jpg/640px-Autumn_at_Roseland_Park%2C_Woodstock_Connecticut.jpg'},
   { hangul: '가족', romaja: 'gajok', topiklevel: 1, imageurl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Family_Concept_-_Paper_Cut_Out_Against_Blue_Sky_-_48412252331.jpg/640px-Family_Concept_-_Paper_Cut_Out_Against_Blue_Sky_-_48412252331.jpg'},
   { hangul: '강', romaja: 'gang', topiklevel: 1, imageurl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Han_River_Walk-_Yeouido%2C_Korea.jpg/640px-Han_River_Walk-_Yeouido%2C_Korea.jpg'},
@@ -48,5 +47,4 @@ Word.create([{ hangul: '아이', romaja: 'ai', topiklevel: 1, imageurl: 'https:/
   { hangul: '배', romaja: 'bae', topiklevel: 1, imageurl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Chemical_Challenger_%28ship%2C_2015%29_S%C3%A8te_cf01.jpg/640px-Chemical_Challenger_%28ship%2C_2015%29_S%C3%A8te_cf01.jpg'},
   { hangul: '버스', romaja: 'beoseu', topiklevel: 1, imageurl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/277_bus_stop_on_Burdett_Road_Poplar_-_geograph.org.uk_-_2346440.jpg/640px-277_bus_stop_on_Burdett_Road_Poplar_-_geograph.org.uk_-_2346440.jpg'},
   { hangul: '봄', romaja: 'bom', topiklevel: 1, imageurl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/%EB%B4%84.jpg/640px-%EB%B4%84.jpg'},
-
 ])
