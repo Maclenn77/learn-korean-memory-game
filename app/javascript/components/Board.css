@@ -1,0 +1,7 @@
+.board {
+  background: rgb(148,82,68);
+  background: radial-gradient(circle, rgba(148,82,68,1) 7%, rgba(51,40,35,1) 46%, rgba(77,39,26,1) 95%);
+  border: 5px solid #7A3D30;
+  border-radius: 5%;
+  padding: 2%;
+}
